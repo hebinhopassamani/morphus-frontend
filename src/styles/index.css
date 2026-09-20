@@ -1,3 +1,4 @@
 @import './base/index.css';
 @import './themes/tailwindcss/index.css';
 @import './themes/morphus/index.css';
+@import './utils/utils.css';

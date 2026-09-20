@@ -1,6 +1,6 @@
 {
     "$schema": "https://unpkg.com/flowbite-react/schema.json",
-    "components": ["Card"],
+    "components": [],
     "dark": true,
     "path": "src/flowbite/components",
     "prefix": "",

@@ -13,10 +13,15 @@
         flex-direction: row;
         justify-content: start;
         align-items: center;
-        width: 100%;
+        width: calc(100% - 0.8rem);
+        overflow: hidden;
+        margin: 0rem 0.4rem;
+        padding: 0rem 1rem;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
         min-height: var(--sec-topbar-height);
-        background-color: var(--mps-primary-container-low);
-        color: var(--mps-on-primary-container-low);
+        background-color: var(--color-mps-neutral-variante-100);
+        color: var(--color-mps-surface-700);
     }
 
     .security-content {
@@ -27,7 +32,7 @@
         width: 100%;
         flex: auto;
         padding: 1.5rem 1.5rem;
-        background-color: var(--mps-background);
-        color: var(--mps-on-background);
+        background-color: transparent;
+        color: var(--color-cyan-900);
     }
 }

@@ -1,13 +1,17 @@
 import type { MorphusProps } from '@core/util/types/Morphus.types';
 import styles from './Styles.module.css';
-import { MpsCardTheme } from '@components/Card';
+import { MpsCard, MpsCardContent, MpsCardFooter, MpsCardHeader } from '@components/Card';
 
 export type SignInPageProps = {} & MorphusProps;
 
 export function SignInPage() {
     return (
         <div className={styles.signin}>
-            <MpsCardTheme title='Teste de Card' color='primary'></MpsCardTheme>
+            <MpsCard>
+                <MpsCardHeader title='Teste de Card' icon='signout'></MpsCardHeader>
+                <MpsCardContent></MpsCardContent>
+                <MpsCardFooter></MpsCardFooter>
+            </MpsCard>
         </div>
     );
 }

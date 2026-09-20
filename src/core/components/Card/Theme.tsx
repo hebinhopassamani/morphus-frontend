@@ -1,57 +1,26 @@
-import type { IconName } from '@components/Icons/icons.Data';
-import type { MorphusColors } from '@core/util/types/Colors.types';
+import type { MpsCardTheme } from '@components/Card/Card';
 import { createTheme } from 'flowbite-react/helpers/create-theme';
-import type { ThemingProps } from 'flowbite-react/types';
-import type { ComponentProps } from 'react';
 
-declare module 'flowbite-react/types' {
-    interface FlowbiteTheme {
-        mpsCardTheme: MpsCardTheme;
-    }
-
-    interface FlowbiteProps {
-        mpsCardProps: Partial<WithoutThemingProps<MpsCardThemeProps>>;
-    }
-}
-
-export interface MpsCardTheme {
-    root?: {
-        base?: string;
-        color?: MorphusColors;
-    };
-    content?: {
-        base?: string;
-        title?: string;
-        body?: string;
-    };
-}
-
-export const cardTheme = createTheme<MpsCardTheme>({
+export const mpsInitialCardTheme = createTheme<MpsCardTheme>({
     root: {
-        base: 'cardBase',
-        color: {
-            primary: '',
-            secondary: 'secondary',
-            tertiary: 'tertiary',
-            surface: 'surface',
-            info: 'info',
-            warning: 'warning',
-            success: 'success',
-            error: 'error',
-            neutral: 'neutral',
-            neutralVariant: 'neutralVariant',
+        color: 'mps-info',
+        base: 'flex flex-col justify-start items-center flex-auto w-200 border-3 border-mps-neutral-variante-600 overflow-hidden rounded-xl shadow-gray-600 shadow-2xl',
+        header: {
+            color: 'mps-info-container',
+            base: 'flex flex-row justify-start items-center h-18 w-full px-4 gap-4 border-b-2 border-b-mps-neutral-variante-600',
+            icon: {
+                base: 'flex flex-row justify-start items-center h-full',
+            },
+            title: {
+                label: 'flex flex-row justify-start items-center h-full w-full mps-title mps-mps-title-xl',
+                base: 'flex flex-col justify-center items-start h-full flex-auto',
+            },
+        },
+        content: {
+            base: 'flex flex-col justify-start items-center flex-auto w-full p-3',
+        },
+        footer: {
+            base: 'flex flex-row justify-start items-center h-18 w-full',
         },
     },
-    content: {
-        base: 'cardContent',
-        title: 'cardTitleContent',
-        body: 'cardBody',
-    },
 });
-
-export interface MpsCardThemeProps extends ComponentProps<'div'>, ThemingProps<MpsCardTheme> {
-    title: string;
-    color?: keyof MorphusColors;
-    icon?: IconName;
-    children?: React.ReactNode;
-}

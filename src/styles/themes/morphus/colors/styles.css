@@ -1,0 +1,201 @@
+@layer components {
+    .mps-primary {
+        background-color: var(--color-mps-primary-100);
+        color: var(--color-mps-primary-900);
+    }
+
+    .mps-primary-over {
+        background-color: var(--color-mps-primary-400);
+        color: var(--color-mps-primary-900);
+    }
+
+    .mps-primary-container {
+        background-color: var(--color-mps-primary-200);
+        color: var(--color-mps-primary-900);
+    }
+
+    .mps-primary-container-over {
+        background-color: var(--color-mps-primary-300);
+        color: var(--color-mps-primary-900);
+    }
+
+    .mps-secondary {
+        background-color: var(--color-mps-secondary-100);
+        color: var(--color-mps-secondary-900);
+    }
+
+    .mps-secondary-over {
+        background-color: var(--color-mps-secondary-400);
+        color: var(--color-mps-secondary-900);
+    }
+
+    .mps-secondary-container {
+        background-color: var(--color-mps-secondary-200);
+        color: var(--color-mps-secondary-900);
+    }
+
+    .mps-secondary-container-over {
+        background-color: var(--color-mps-secondary-300);
+        color: var(--color-mps-secondary-900);
+    }
+
+    .mps-tertiary {
+        background-color: var(--color-mps-tertiary-100);
+        color: var(--color-mps-tertiary-900);
+    }
+
+    .mps-tertiary-over {
+        background-color: var(--color-mps-tertiary-400);
+        color: var(--color-mps-tertiary-900);
+    }
+
+    .mps-tertiary-container {
+        background-color: var(--color-mps-tertiary-200);
+        color: var(--color-mps-tertiary-900);
+    }
+
+    .mps-tertiary-container-over {
+        background-color: var(--color-mps-tertiary-300);
+        color: var(--color-mps-tertiary-900);
+    }
+
+    .mps-surface {
+        background-color: var(--color-mps-surface-100);
+        color: var(--color-mps-surface-900);
+    }
+
+    .mps-surface-over {
+        background-color: var(--color-mps-surface-400);
+        color: var(--color-mps-surface-900);
+    }
+
+    .mps-surface-container {
+        background-color: var(--color-mps-surface-200);
+        color: var(--color-mps-surface-900);
+    }
+
+    .mps-surface-container-over {
+        background-color: var(--color-mps-surface-300);
+        color: var(--color-mps-surface-900);
+    }
+
+    .mps-info {
+        background-color: var(--color-mps-info-100);
+        color: var(--color-mps-info-900);
+    }
+
+    .mps-info-over {
+        background-color: var(--color-mps-info-400);
+        color: var(--color-mps-info-900);
+    }
+
+    .mps-info-container {
+        background-color: var(--color-mps-info-200);
+        color: var(--color-mps-info-900);
+    }
+
+    .mps-info-container-over {
+        background-color: var(--color-mps-info-300);
+        color: var(--color-mps-info-900);
+    }
+
+    .mps-warning {
+        background-color: var(--color-mps-warning-100);
+        color: var(--color-black);
+    }
+
+    .mps-warning-over {
+        background-color: var(--color-mps-warning-400);
+        color: var(--color-black);
+    }
+
+    .mps-warning-container {
+        background-color: var(--color-mps-warning-200);
+        color: var(--color-black);
+    }
+
+    .mps-warning-container-over {
+        background-color: var(--color-mps-warning-300);
+        color: var(--color-black);
+    }
+
+    .mps-success {
+        background-color: var(--color-mps-success-100);
+        color: var(--color-mps-success-900);
+    }
+
+    .mps-success-over {
+        background-color: --alpha(var(--color-mps-success-300) / 35%);
+        color: var(--color-mps-success-900);
+    }
+
+    .mps-success-container {
+        background-color: var(--color-mps-success-400);
+        color: var(--color-mps-success-900);
+    }
+
+    .mps-success-container-over {
+        background-color: --alpha(var(--color-mps-success-600) / 25%);
+        color: var(--color-mps-success-800);
+    }
+
+    .mps-error {
+        background-color: var(--color-mps-error-100);
+        color: var(--color-mps-error-900);
+    }
+
+    .mps-error-over {
+        background-color: var(--color-mps-error-400);
+        color: var(--color-mps-error-900);
+    }
+
+    .mps-error-container {
+        background-color: var(--color-mps-error-200);
+        color: var(--color-mps-error-900);
+    }
+
+    .mps-error-container-over {
+        background-color: var(--color-mps-error-300);
+        color: var(--color-mps-error-900);
+    }
+
+    .mps-neutral {
+        background-color: var(--color-mps-neutral-50);
+        color: var(--color-mps-neutral-900);
+    }
+
+    .mps-neutral-over {
+        background-color: var(--color-mps-neutral-200);
+        color: var(--color-mps-neutral-900);
+    }
+
+    .mps-neutral-container {
+        background-color: var(--color-mps-neutral-100);
+        color: var(--color-mps-neutral-900);
+    }
+
+    .mps-neutral-container-over {
+        background-color: var(--color-mps-neutral-300);
+        color: var(--color-mps-neutral-900);
+    }
+
+    .mps-neutral-variant {
+        background-color: var(--color-mps-neutral-variant-100);
+        color: var(--color-mps-neutral-variant-900);
+    }
+
+    .mps-neutral-variant-over {
+        background-color: var(--color-mps-neutral-variant-400);
+        color: var(--color-mps-neutral-variant-900);
+    }
+
+    .mps-neutral-variant-container {
+        background-color: var(--color-mps-neutral-variant-200);
+        color: var(--color-mps-neutral-variant-900);
+    }
+
+    .mps-neutral-variant-container-over {
+        background-color: var(--color-mps-neutral-variant-300);
+        color: var(--color-mps-neutral-variant-900);
+    }
+}

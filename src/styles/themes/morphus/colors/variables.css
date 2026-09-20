@@ -1,156 +1,135 @@
 @theme {
-    --mps-shadow: var(--color-black);
-
-    --mps-background: light-dark(var(-color-neutral-300), var(-color-neutral-100));
-    --mps-on-background: light-dark(var(-color-neutral-100), var(-color-neutral-100));
+    --tw-shadow-color: #000000;
+    --color-mps-background: light-dark(var(--color-neutral-100), var(--color-neutral-600));
+    --color-mps-background-text: light-dark(var(--color-neutral-600), var(--color-neutral-100));
 
     /* ---------------------------- PRIMARY ---------------------------------- */
-    --mps-primary: light-dark(var(--color-blue-300), var(--color-blue-600));
-    --mps-on-primary: light-dark(var(--color-blue-950), var(--color-blue-50));
-    --mps-primary-container: light-dark(var(--color-blue-200), var(--color-blue-600));
-    --mps-on-primary-container: light-dark(var(--color-blue-950), var(--color-blue-50));
 
-    --mps-primary-low: light-dark(var(--color-blue-200), var(--color-blue-500));
-    --mps-on-primary-low: light-dark(var(--color-blue-950), var(--color-blue-950));
-    --mps-primary-hight: light-dark(var(--color-blue-400), var(--color-blue-700));
-    --mps-on-primary-hight: light-dark(var(--color-blue-950), var(--color-blue-50));
-    --mps-primary-container-low: light-dark(var(--color-blue-100), var(--color-blue-400));
-    --mps-on-primary-container-low: light-dark(var(--color-blue-950), var(--color-blue-950));
-    --mps-primary-container-hight: light-dark(var(--color-blue-300), var(--color-blue-800));
-    --mps-on-primary-container-hight: light-dark(var(--color-blue-950), var(--color-blue-50));
+    --color-mps-primary-50: light-dark(var(--color-blue-50), var(--color-blue-900));
+    --color-mps-primary-100: light-dark(var(--color-blue-100), var(--color-blue-800));
+    --color-mps-primary-200: light-dark(var(--color-blue-200), var(--color-blue-700));
+    --color-mps-primary-300: light-dark(var(--color-blue-300), var(--color-blue-600));
+    --color-mps-primary-400: light-dark(var(--color-blue-400), var(--color-blue-500));
+    --color-mps-primary-500: light-dark(var(--color-blue-500), var(--color-blue-400));
+    --color-mps-primary-600: light-dark(var(--color-blue-600), var(--color-blue-300));
+    --color-mps-primary-700: light-dark(var(--color-blue-700), var(--color-blue-200));
+    --color-mps-primary-800: light-dark(var(--color-blue-800), var(--color-blue-100));
+    --color-mps-primary-900: light-dark(var(--color-blue-900), var(--color-blue-50));
 
     /* ---------------------------- SECONDARY ---------------------------------- */
-    --mps-secondary: light-dark(var(--color-sky-300), var(--color-sky-600));
-    --mps-on-secondary: light-dark(var(--color-sky-950), var(--color-sky-50));
-    --mps-secondary-container: light-dark(var(--color-sky-200), var(--color-sky-600));
-    --mps-on-secondary-container: light-dark(var(--color-sky-950), var(--color-sky-50));
 
-    --mps-secondary-low: light-dark(var(--color-sky-200), var(--color-sky-500));
-    --mps-on-secondary-low: light-dark(var(--color-sky-950), var(--color-sky-950));
-    --mps-secondary-hight: light-dark(var(--color-sky-400), var(--color-sky-700));
-    --mps-on-secondary-hight: light-dark(var(--color-sky-950), var(--color-sky-50));
-    --mps-secondary-container-low: light-dark(var(--color-sky-100), var(--color-sky-400));
-    --mps-on-secondary-container-low: light-dark(var(--color-sky-950), var(--color-sky-950));
-    --mps-secondary-container-hight: light-dark(var(--color-sky-300), var(--color-sky-800));
-    --mps-on-secondary-container-hight: light-dark(var(--color-sky-950), var(--color-sky-50));
+    --color-mps-secondary-50: light-dark(var(--color-sky-50), var(--color-sky-900));
+    --color-mps-secondary-100: light-dark(var(--color-sky-100), var(--color-sky-800));
+    --color-mps-secondary-200: light-dark(var(--color-sky-200), var(--color-sky-700));
+    --color-mps-secondary-300: light-dark(var(--color-sky-300), var(--color-sky-600));
+    --color-mps-secondary-400: light-dark(var(--color-sky-400), var(--color-sky-500));
+    --color-mps-secondary-500: light-dark(var(--color-sky-500), var(--color-sky-400));
+    --color-mps-secondary-600: light-dark(var(--color-sky-600), var(--color-sky-300));
+    --color-mps-secondary-700: light-dark(var(--color-sky-700), var(--color-sky-200));
+    --color-mps-secondary-800: light-dark(var(--color-sky-800), var(--color-sky-100));
+    --color-mps-secondary-900: light-dark(var(--color-sky-900), var(--color-sky-50));
 
     /* ---------------------------- TERTIARY ---------------------------------- */
-    --mps-tertiary: light-dark(var(--color-violet-300), var(--color-violet-600));
-    --mps-on-tertiary: light-dark(var(--color-violet-950), var(--color-violet-50));
-    --mps-tertiary-container: light-dark(var(--color-violet-200), var(--color-violet-600));
-    --mps-on-tertiary-container: light-dark(var(--color-violet-950), var(--color-violet-50));
 
-    --mps-tertiary-low: light-dark(var(--color-violet-200), var(--color-violet-500));
-    --mps-on-tertiary-low: light-dark(var(--color-violet-950), var(--color-violet-950));
-    --mps-tertiary-hight: light-dark(var(--color-violet-400), var(--color-violet-700));
-    --mps-on-tertiary-hight: light-dark(var(--color-violet-950), var(--color-violet-50));
-    --mps-tertiary-container-low: light-dark(var(--color-violet-100), var(--color-violet-400));
-    --mps-on-tertiary-container-low: light-dark(var(--color-violet-950), var(--color-violet-950));
-    --mps-tertiary-container-hight: light-dark(var(--color-violet-300), var(--color-violet-800));
-    --mps-on-tertiary-container-hight: light-dark(var(--color-violet-950), var(--color-violet-50));
+    --color-mps-tertiary-50: light-dark(var(--color-violet-50), var(--color-violet-900));
+    --color-mps-tertiary-100: light-dark(var(--color-violet-100), var(--color-violet-800));
+    --color-mps-tertiary-200: light-dark(var(--color-violet-200), var(--color-violet-700));
+    --color-mps-tertiary-300: light-dark(var(--color-violet-300), var(--color-violet-600));
+    --color-mps-tertiary-400: light-dark(var(--color-violet-400), var(--color-violet-500));
+    --color-mps-tertiary-500: light-dark(var(--color-violet-500), var(--color-violet-400));
+    --color-mps-tertiary-600: light-dark(var(--color-violet-600), var(--color-violet-300));
+    --color-mps-tertiary-700: light-dark(var(--color-violet-700), var(--color-violet-200));
+    --color-mps-tertiary-800: light-dark(var(--color-violet-800), var(--color-violet-100));
+    --color-mps-tertiary-900: light-dark(var(--color-violet-900), var(--color-violet-50));
 
     /* ---------------------------- SURFACE ---------------------------------- */
-    --mps-surface: light-dark(var(--color-slate-300), var(--color-slate-600));
-    --mps-on-surface: light-dark(var(--color-slate-950), var(--color-slate-50));
-    --mps-surface-container: light-dark(var(--color-slate-200), var(--color-slate-600));
-    --mps-on-surface-container: light-dark(var(--color-slate-950), var(--color-slate-50));
 
-    --mps-surface-low: light-dark(var(--color-slate-200), var(--color-slate-500));
-    --mps-on-surface-low: light-dark(var(--color-slate-950), var(--color-slate-950));
-    --mps-surface-hight: light-dark(var(--color-slate-400), var(--color-slate-700));
-    --mps-on-surface-hight: light-dark(var(--color-slate-950), var(--color-slate-50));
-    --mps-surface-container-low: light-dark(var(--color-slate-100), var(--color-slate-400));
-    --mps-on-surface-container-low: light-dark(var(--color-slate-950), var(--color-slate-950));
-    --mps-surface-container-hight: light-dark(var(--color-slate-300), var(--color-slate-800));
-    --mps-on-surface-container-hight: light-dark(var(--color-slate-950), var(--color-slate-50));
+    --color-mps-surface-50: light-dark(var(--color-slate-50), var(--color-slate-900));
+    --color-mps-surface-100: light-dark(var(--color-slate-100), var(--color-slate-800));
+    --color-mps-surface-200: light-dark(var(--color-slate-200), var(--color-slate-700));
+    --color-mps-surface-300: light-dark(var(--color-slate-300), var(--color-slate-600));
+    --color-mps-surface-400: light-dark(var(--color-slate-400), var(--color-slate-500));
+    --color-mps-surface-500: light-dark(var(--color-slate-500), var(--color-slate-400));
+    --color-mps-surface-600: light-dark(var(--color-slate-600), var(--color-slate-300));
+    --color-mps-surface-700: light-dark(var(--color-slate-700), var(--color-slate-200));
+    --color-mps-surface-800: light-dark(var(--color-slate-800), var(--color-slate-100));
+    --color-mps-surface-900: light-dark(var(--color-slate-900), var(--color-slate-50));
 
     /* ---------------------------- INFO ---------------------------------- */
-    --mps-info: light-dark(var(--color-indigo-300), var(--color-indigo-600));
-    --mps-on-info: light-dark(var(--color-indigo-950), var(--color-indigo-50));
-    --mps-info-container: light-dark(var(--color-indigo-200), var(--color-indigo-600));
-    --mps-on-info-container: light-dark(var(--color-indigo-950), var(--color-indigo-50));
 
-    --mps-info-low: light-dark(var(--color-indigo-200), var(--color-indigo-500));
-    --mps-on-info-low: light-dark(var(--color-indigo-950), var(--color-indigo-950));
-    --mps-info-hight: light-dark(var(--color-indigo-400), var(--color-indigo-700));
-    --mps-on-info-hight: light-dark(var(--color-indigo-950), var(--color-indigo-50));
-    --mps-info-container-low: light-dark(var(--color-indigo-100), var(--color-indigo-400));
-    --mps-on-info-container-low: light-dark(var(--color-indigo-950), var(--color-indigo-950));
-    --mps-info-container-hight: light-dark(var(--color-indigo-300), var(--color-indigo-800));
-    --mps-on-info-container-hight: light-dark(var(--color-indigo-950), var(--color-indigo-50));
+    --color-mps-info-50: light-dark(var(--color-indigo-50), var(--color-indigo-900));
+    --color-mps-info-100: light-dark(var(--color-indigo-100), var(--color-indigo-800));
+    --color-mps-info-200: light-dark(var(--color-indigo-200), var(--color-indigo-700));
+    --color-mps-info-300: light-dark(var(--color-indigo-300), var(--color-indigo-600));
+    --color-mps-info-400: light-dark(var(--color-indigo-400), var(--color-indigo-500));
+    --color-mps-info-500: light-dark(var(--color-indigo-500), var(--color-indigo-400));
+    --color-mps-info-600: light-dark(var(--color-indigo-600), var(--color-indigo-300));
+    --color-mps-info-700: light-dark(var(--color-indigo-700), var(--color-indigo-200));
+    --color-mps-info-800: light-dark(var(--color-indigo-800), var(--color-indigo-100));
+    --color-mps-info-900: light-dark(var(--color-indigo-900), var(--color-indigo-50));
 
     /* ---------------------------- WARNING ---------------------------------- */
-    --mps-warning: light-dark(var(--color-amber-300), var(--color-amber-600));
-    --mps-on-warning: light-dark(var(--color-amber-950), var(--color-amber-50));
-    --mps-warning-container: light-dark(var(--color-amber-200), var(--color-amber-600));
-    --mps-on-warning-container: light-dark(var(--color-amber-950), var(--color-amber-50));
 
-    --mps-warning-low: light-dark(var(--color-amber-200), var(--color-amber-500));
-    --mps-on-warning-low: light-dark(var(--color-amber-950), var(--color-amber-950));
-    --mps-warning-hight: light-dark(var(--color-amber-400), var(--color-amber-700));
-    --mps-on-warning-hight: light-dark(var(--color-amber-950), var(--color-amber-50));
-    --mps-warning-container-low: light-dark(var(--color-amber-100), var(--color-amber-400));
-    --mps-on-warning-container-low: light-dark(var(--color-amber-950), var(--color-amber-950));
-    --mps-warning-container-hight: light-dark(var(--color-amber-300), var(--color-amber-800));
-    --mps-on-warning-container-hight: light-dark(var(--color-amber-950), var(--color-amber-50));
+    --color-mps-warning-50: light-dark(var(--color-amber-50), var(--color-amber-900));
+    --color-mps-warning-100: light-dark(var(--color-amber-100), var(--color-amber-800));
+    --color-mps-warning-200: light-dark(var(--color-amber-200), var(--color-amber-700));
+    --color-mps-warning-300: light-dark(var(--color-amber-300), var(--color-amber-600));
+    --color-mps-warning-400: light-dark(var(--color-amber-400), var(--color-amber-500));
+    --color-mps-warning-500: light-dark(var(--color-amber-500), var(--color-amber-400));
+    --color-mps-warning-600: light-dark(var(--color-amber-600), var(--color-amber-300));
+    --color-mps-warning-700: light-dark(var(--color-amber-700), var(--color-amber-200));
+    --color-mps-warning-800: light-dark(var(--color-amber-800), var(--color-amber-100));
+    --color-mps-warning-900: light-dark(var(--color-amber-900), var(--color-amber-50));
 
     /* ---------------------------- SUCCESS ---------------------------------- */
-    --mps-success: light-dark(var(--color-green-300), var(--color-green-600));
-    --mps-on-success: light-dark(var(--color-green-950), var(--color-green-50));
-    --mps-success-container: light-dark(var(--color-green-200), var(--color-green-600));
-    --mps-on-success-container: light-dark(var(--color-green-950), var(--color-green-50));
 
-    --mps-success-low: light-dark(var(--color-green-200), var(--color-green-500));
-    --mps-on-success-low: light-dark(var(--color-green-950), var(--color-green-950));
-    --mps-success-hight: light-dark(var(--color-green-400), var(--color-green-700));
-    --mps-on-success-hight: light-dark(var(--color-green-950), var(--color-green-50));
-    --mps-success-container-low: light-dark(var(--color-green-100), var(--color-green-400));
-    --mps-on-success-container-low: light-dark(var(--color-green-950), var(--color-green-950));
-    --mps-success-container-hight: light-dark(var(--color-green-300), var(--color-green-800));
-    --mps-on-success-container-hight: light-dark(var(--color-green-950), var(--color-green-50));
+    --color-mps-success-50: light-dark(var(--color-green-50), var(--color-green-900));
+    --color-mps-success-100: light-dark(var(--color-green-100), var(--color-green-800));
+    --color-mps-success-200: light-dark(var(--color-green-200), var(--color-green-700));
+    --color-mps-success-300: light-dark(var(--color-green-300), var(--color-green-600));
+    --color-mps-success-400: light-dark(var(--color-green-400), var(--color-green-500));
+    --color-mps-success-500: light-dark(var(--color-green-500), var(--color-green-400));
+    --color-mps-success-600: light-dark(var(--color-green-600), var(--color-green-300));
+    --color-mps-success-700: light-dark(var(--color-green-700), var(--color-green-200));
+    --color-mps-success-800: light-dark(var(--color-green-800), var(--color-green-100));
+    --color-mps-success-900: light-dark(var(--color-green-900), var(--color-green-50));
 
     /* ---------------------------- ERROR ---------------------------------- */
-    --mps-error: light-dark(var(--color-red-300), var(--color-red-600));
-    --mps-on-error: light-dark(var(--color-red-950), var(--color-red-50));
-    --mps-error-container: light-dark(var(--color-red-200), var(--color-red-600));
-    --mps-on-error-container: light-dark(var(--color-red-950), var(--color-red-50));
 
-    --mps-error-low: light-dark(var(--color-red-200), var(--color-red-500));
-    --mps-on-error-low: light-dark(var(--color-red-950), var(--color-red-950));
-    --mps-error-hight: light-dark(var(--color-red-400), var(--color-red-700));
-    --mps-on-error-hight: light-dark(var(--color-red-950), var(--color-red-50));
-    --mps-error-container-low: light-dark(var(--color-red-100), var(--color-red-400));
-    --mps-on-error-container-low: light-dark(var(--color-red-950), var(--color-red-950));
-    --mps-error-container-hight: light-dark(var(--color-red-300), var(--color-red-800));
-    --mps-on-error-container-hight: light-dark(var(--color-red-950), var(--color-red-50));
+    --color-mps-error-50: light-dark(var(--color-red-50), var(--color-red-900));
+    --color-mps-error-100: light-dark(var(--color-red-100), var(--color-red-800));
+    --color-mps-error-200: light-dark(var(--color-red-200), var(--color-red-700));
+    --color-mps-error-300: light-dark(var(--color-red-300), var(--color-red-600));
+    --color-mps-error-400: light-dark(var(--color-red-400), var(--color-red-500));
+    --color-mps-error-500: light-dark(var(--color-red-500), var(--color-red-400));
+    --color-mps-error-600: light-dark(var(--color-red-600), var(--color-red-300));
+    --color-mps-error-700: light-dark(var(--color-red-700), var(--color-red-200));
+    --color-mps-error-800: light-dark(var(--color-red-800), var(--color-red-100));
+    --color-mps-error-900: light-dark(var(--color-red-900), var(--color-red-50));
 
     /* ---------------------------- NEUTRAL ---------------------------------- */
-    --mps-neutral-variant: light-dark(var(--color-neutral-300), var(--color-neutral-600));
-    --mps-on-neutral: light-dark(var(--color-neutral-950), var(--color-neutral-50));
-    --mps-neutral-container: light-dark(var(--color-neutral-200), var(--color-neutral-600));
-    --mps-on-neutral-container: light-dark(var(--color-neutral-950), var(--color-neutral-50));
 
-    --mps-neutral-low: light-dark(var(--color-neutral-200), var(--color-neutral-500));
-    --mps-on-neutral-low: light-dark(var(--color-neutral-950), var(--color-neutral-950));
-    --mps-neutral-hight: light-dark(var(--color-neutral-400), var(--color-neutral-700));
-    --mps-on-neutral-hight: light-dark(var(--color-neutral-950), var(--color-neutral-50));
-    --mps-neutral-container-low: light-dark(var(--color-neutral-100), var(--color-neutral-400));
-    --mps-on-neutral-container-low: light-dark(var(--color-neutral-950), var(--color-neutral-950));
-    --mps-neutral-container-hight: light-dark(var(--color-neutral-300), var(--color-neutral-800));
-    --mps-on-neutral-container-hight: light-dark(var(--color-neutral-950), var(--color-neutral-50));
+    --color-mps-neutral-50: light-dark(var(--color-neutral-50), var(--color-neutral-900));
+    --color-mps-neutral-100: light-dark(var(--color-neutral-100), var(--color-neutral-800));
+    --color-mps-neutral-200: light-dark(var(--color-neutral-200), var(--color-neutral-700));
+    --color-mps-neutral-300: light-dark(var(--color-neutral-300), var(--color-neutral-600));
+    --color-mps-neutral-400: light-dark(var(--color-neutral-400), var(--color-neutral-500));
+    --color-mps-neutral-500: light-dark(var(--color-neutral-500), var(--color-neutral-400));
+    --color-mps-neutral-600: light-dark(var(--color-neutral-600), var(--color-neutral-300));
+    --color-mps-neutral-700: light-dark(var(--color-neutral-700), var(--color-neutral-200));
+    --color-mps-neutral-800: light-dark(var(--color-neutral-800), var(--color-neutral-100));
+    --color-mps-neutral-900: light-dark(var(--color-neutral-900), var(--color-neutral-50));
 
     /* ------------------------ NEUTRAL VARIANT ---------------------------------- */
-    --mps-neutral-variant: light-dark(var(--color-zinc-300), var(--color-zinc-600));
-    --mps-on-neutral-variant: light-dark(var(--color-zinc-950), var(--color-zinc-50));
-    --mps-neutral-variant-container: light-dark(var(--color-zinc-200), var(--color-zinc-600));
-    --mps-on-neutral-variant-container: light-dark(var(--color-zinc-950), var(--color-zinc-50));
 
-    --mps-neutral-variant-low: light-dark(var(--color-zinc-200), var(--color-zinc-500));
-    --mps-on-neutral-variant-low: light-dark(var(--color-zinc-950), var(--color-zinc-950));
-    --mps-neutral-variant-hight: light-dark(var(--color-zinc-400), var(--color-zinc-700));
-    --mps-on-neutral-variant-hight: light-dark(var(--color-zinc-950), var(--color-zinc-50));
-    --mps-neutral-variant-container-low: light-dark(var(--color-zinc-100), var(--color-zinc-400));
-    --mps-on-neutral-variant-container-low: light-dark(var(--color-zinc-950), var(--color-zinc-950));
-    --mps-neutral-variant-container-hight: light-dark(var(--color-zinc-300), var(--color-zinc-800));
-    --mps-on-neutral-variant-container-hight: light-dark(var(--color-zinc-950), var(--color-zinc-50));
+    --color-mps-neutral-variante-50: light-dark(var(--color-zinc-50), var(--color-zinc-900));
+    --color-mps-neutral-variante-100: light-dark(var(--color-zinc-100), var(--color-zinc-800));
+    --color-mps-neutral-variante-200: light-dark(var(--color-zinc-200), var(--color-zinc-700));
+    --color-mps-neutral-variante-300: light-dark(var(--color-zinc-300), var(--color-zinc-600));
+    --color-mps-neutral-variante-400: light-dark(var(--color-zinc-400), var(--color-zinc-500));
+    --color-mps-neutral-variante-500: light-dark(var(--color-zinc-500), var(--color-zinc-400));
+    --color-mps-neutral-variante-600: light-dark(var(--color-zinc-600), var(--color-zinc-300));
+    --color-mps-neutral-variante-700: light-dark(var(--color-zinc-700), var(--color-zinc-200));
+    --color-mps-neutral-variante-800: light-dark(var(--color-zinc-800), var(--color-zinc-100));
+    --color-mps-neutral-variante-900: light-dark(var(--color-zinc-900), var(--color-zinc-50));
 }
