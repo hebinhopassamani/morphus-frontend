@@ -1,0 +1,33 @@
+@theme {
+    /* ------------ FULL ROUNDING -------- */
+    --mps-radius-none: 0px;
+    --mps-radius-extra-small: 4px;
+    --mps-radius-small: 8px;
+    --mps-radius-medium: 12px;
+    --mps-radius-large: 16px;
+    --mps-radius-extra-large: 28px;
+
+    /* ------------ TOP ROUNDING -------- */
+    --mps-radius-extra-small-top-left: 4px;
+    --mps-radius-extra-small-top-right: 4px;
+    --mps-radius-small-top-left: 8px;
+    --mps-radius-small-top-right: 8px;
+    --mps-radius-medium-top-left: 12px;
+    --mps-radius-medium-top-right: 12px;
+    --mps-radius-large-top-left: 16px;
+    --mps-radius-large-top-right: 16px;
+    --mps-radius-extra-large-top-left: 28px;
+    --mps-radius-extra-large-top-right: 28px;
+
+    /* ------------ BOTTON ROUNDING -------- */
+    --mps-radius-extra-small-botton-left: 4px;
+    --mps-radius-extra-small-botton-right: 4px;
+    --mps-radius-small-botton-left: 8px;
+    --mps-radius-small-botton-right: 8px;
+    --mps-radius-medium-botton-left: 12px;
+    --mps-radius-medium-botton-right: 12px;
+    --mps-radius-large-botton-left: 16px;
+    --mps-radius-large-botton-right: 16px;
+    --mps-radius-extra-large-botton-left: 28px;
+    --mps-radius-extra-large-botton-right: 28px;
+}

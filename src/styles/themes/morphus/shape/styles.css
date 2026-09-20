@@ -1,0 +1,68 @@
+@layer components {
+    .radius-none {
+        border-radius: var(--mps-corner-none);
+    }
+
+    .radius-extra-small {
+        border-radius: var(--mps-corner-extra-small);
+    }
+
+    .radius-small {
+        border-radius: var(--mps-corner-small);
+    }
+
+    .radius-medium {
+        border-radius: var(--mps-corner-medium);
+    }
+    .radius-large {
+        border-radius: var(--mps-corner-large);
+    }
+
+    .radius-extra-large {
+        border-radius: var(--mps-corner-extra-large);
+    }
+
+    /* ------------ TOP ROUNDING -------- */
+    .radius-extra-small-top {
+        border-top-left-radius: var(--mps-corner-extra-small-top-left);
+        border-top-right-radius: var(--mps-corner-extra-small-top-right);
+    }
+    .radius-small-top {
+        border-top-left-radius: var(--mps-corner-small-top-left);
+        border-top-right-radius: var(--mps-corner-small-top-right);
+    }
+    .radius-medium-top {
+        border-top-left-radius: var(--mps-corner-medium-top-left);
+        border-top-right-radius: var(--mps-corner-medium-top-right);
+    }
+    .radius-large-top {
+        border-top-left-radius: var(--mps-corner-large-top-left);
+        border-top-right-radius: var(--mps-corner-large-top-right);
+    }
+    .radius-extra-large-top {
+        border-top-left-radius: var(--mps-corner-extra-large-top-left);
+        border-top-right-radius: var(--mps-corner-extra-large-top-right);
+    }
+
+    /* ------------ BOTTON ROUNDING -------- */
+    .radius-extra-small-botton {
+        border-top-left-radius: var(--mps-corner-extra-small-botton-left);
+        border-top-right-radius: var(--mps-corner-extra-small-botton-right);
+    }
+    .radius-small-botton {
+        border-top-left-radius: var(--mps-corner-small-botton-left);
+        border-top-right-radius: var(--mps-corner-small-botton-right);
+    }
+    .radius-medium-botton {
+        border-top-left-radius: var(--mps-corner-medium-botton-left);
+        border-top-right-radius: var(--mps-corner-medium-botton-right);
+    }
+    .radius-large-botton {
+        border-top-left-radius: var(--mps-corner-large-botton-left);
+        border-top-right-radius: var(--mps-corner-large-botton-right);
+    }
+    .radius-extra-large-botton {
+        border-top-left-radius: var(--mps-corner-extra-large-botton-left);
+        border-top-right-radius: var(--mps-corner-extra-large-botton-right);
+    }
+}
