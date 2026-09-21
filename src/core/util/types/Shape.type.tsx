@@ -1,0 +1,20 @@
+export type MpxShape = {
+    radiusNone?: string;
+    radiusExtraSmall?: string;
+    radiusSmall?: string;
+    radiusMedium?: string;
+    radiusLarge?: string;
+    radiusExtraLarge?: string;
+    radiusNoneTop?: string;
+    radiusExtraSmallTop?: string;
+    radiusSmallTop?: string;
+    radiusMediumTop?: string;
+    radiusLargeTop?: string;
+    radiusExtraLargeTop?: string;
+    radiusNoneBotton?: string;
+    radiusExtraSmallBotton?: string;
+    radiusSmallBotton?: string;
+    radiusMediumBotton?: string;
+    radiusLargeBotton?: string;
+    radiusExtraLargeBotton?: string;
+};

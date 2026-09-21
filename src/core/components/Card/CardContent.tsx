@@ -20,8 +20,8 @@ export function MpsCardContent(props: MpsCardContentProps) {
 
     const theme = useResolveTheme(
         [mpsInitialCardTheme, provider.theme?.mpsCardTheme?.root?.content, props.theme],
-        [get(provider.clearTheme, 'card.root'), props.clearTheme],
-        [get(provider.applyTheme, 'card.root'), props.applyTheme]
+        [get(provider.clearTheme, 'MpsCard.root'), props.clearTheme],
+        [get(provider.applyTheme, 'MpsCard.root'), props.applyTheme]
     );
 
     const { className, children, ...restProps } = resolveProps(props, provider.props?.mpsCardProps);

@@ -1,0 +1,28 @@
+@theme {
+    --radius-mpx-none: var(--radius-xsne);
+    --radius-mpx-xsmall: 0.3rem;
+    --radius-mpx-small: var(--radius-xs);
+    --radius-mpx-medium: var(--radius-md);
+    --radius-mpx-large: var(--radius-lg);
+    --radius-mpx-larger: var(--radius-xl);
+    --radius-mpx-tl-xsmal: var(--radius-xs);
+    --radius-mpx-tr-xsmal: var(--radius-xs);
+    --radius-mpx-tl-small: var(--radius-sm);
+    --radius-mpx-tr-small: var(--radius-sm);
+    --radius-mpx-tl-medium: var(--radius-md);
+    --radius-mpx-tr-medium: var(--radius-md);
+    --radius-mpx-tl-large: var(--radius-lg);
+    --radius-mpx-tr-large: var(--radius-lg);
+    --radius-mpx-tl-largerl: var(--radius-xl);
+    --radius-mpx-tr-largerl: var(--radius-xl);
+    --radius-mpx-bl-xsmall: var(--radius-xs);
+    --radius-mpx-br-xsmall: var(--radius-xs);
+    --radius-mpx-bl-small: var(--radius-sm);
+    --radius-mpx-br-small: var(--radius-sm);
+    --radius-mpx-bl-medium: var(--radius-md);
+    --radius-mpx-br-medium: var(--radius-md);
+    --radius-mpx-bl-large: var(--radius-lg);
+    --radius-mpx-br-large: var(--radius-lg);
+    --radius-mpx-bl-larger: var(--radius-xl);
+    --radius-mpx-br-larger: var(--radius-xl);
+}

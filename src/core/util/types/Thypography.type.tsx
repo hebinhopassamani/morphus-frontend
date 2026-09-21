@@ -1,0 +1,22 @@
+export type MpxThypography = {
+    fontFamily?: string;
+    fontSmall?: string;
+    fontMedium?: string;
+    fontLarge?: string;
+    fontLight?: string;
+    fontRegular?: string;
+    fontSemibold?: string;
+    fontBold?: string;
+    labelSmall?: string;
+    labelMedium?: string;
+    labelLarge?: string;
+    titleSmall: string;
+    titleMedium?: string;
+    titleLarge?: string;
+    headlineSmall?: string;
+    headlineMedium?: string;
+    headlineLarge?: string;
+    displaySmall?: string;
+    displayMedium?: string;
+    displayLarge?: string;
+};

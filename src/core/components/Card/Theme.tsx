@@ -1,18 +1,21 @@
 import type { MpsCardTheme } from '@components/Card/Card';
+import { morphusTheme } from '@core/util/types/Colors.types';
+
 import { createTheme } from 'flowbite-react/helpers/create-theme';
 
 export const mpsInitialCardTheme = createTheme<MpsCardTheme>({
     root: {
-        color: 'mps-info',
-        base: 'flex flex-col justify-start text-md items-center flex-auto w-200 border-3 border-mps-neutral-variante-600 overflow-hidden rounded-xl shadow-gray-600 shadow-2xl',
+        morphusTheme: morphusTheme,
+        color: 'secondary',
+        base: 'flex flex-col justify-start items-center mpx-text flex-auto font- fle w-200 border-3 border-mps-neutral-variante-600 overflow-hidden rounded-xl shadow-gray-600 shadow-2xl',
         header: {
-            color: 'mps-info-container',
+            color: 'primary',
             base: 'flex flex-row justify-start items-center h-18 w-full px-4 gap-4 border-b-2 border-b-mps-neutral-variante-600',
             icon: {
                 base: 'flex flex-row justify-start items-center h-full',
             },
             title: {
-                label: 'flex flex-row justify-start items-center h-full w-full mps-title mps-mps-title-xl',
+                label: 'flex flex-row justify-start items-center h-full w-full mps-title text-xl',
                 base: 'flex flex-col justify-center items-start h-full flex-auto',
             },
         },

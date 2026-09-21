@@ -17,12 +17,9 @@
     .radius-large {
         border-radius: var(--mps-corner-large);
     }
-
     .radius-extra-large {
         border-radius: var(--mps-corner-extra-large);
     }
-
-    /* ------------ TOP ROUNDING -------- */
     .radius-extra-small-top {
         border-top-left-radius: var(--mps-corner-extra-small-top-left);
         border-top-right-radius: var(--mps-corner-extra-small-top-right);
@@ -43,8 +40,6 @@
         border-top-left-radius: var(--mps-corner-extra-large-top-left);
         border-top-right-radius: var(--mps-corner-extra-large-top-right);
     }
-
-    /* ------------ BOTTON ROUNDING -------- */
     .radius-extra-small-botton {
         border-top-left-radius: var(--mps-corner-extra-small-botton-left);
         border-top-right-radius: var(--mps-corner-extra-small-botton-right);

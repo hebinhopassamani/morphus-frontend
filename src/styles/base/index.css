@@ -9,6 +9,7 @@ html.dark {
 html:not(.dark) {
     color-scheme: light;
 }
+
 @layer base {
     #root {
         display: flex;
